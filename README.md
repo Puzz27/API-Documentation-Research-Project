@@ -10,9 +10,21 @@ I am curious about API documentation for a few major platforms, X, Reddit, and M
 
 Data
 -----
+I am pulling the data for my first dataset from https://developers.facebook.com/documentation/development/graph-api/changelog.
+This website contains all the information for the different changelogs within Meta's Graph API. I will be scraping the markdown versions of these changelogs which are hosted on the website.
+
+Important information I will need from the changelog markdown files includes:
+- Version and version timestamp
+- Product to be changed (Graph API or Marketing API)
+- The specific change mentioned within the changelog
+- The section, subsection, and description of that change
+
+I will be collecting changelogs from a sample of the API's avalible version history. 
+
 
 Methods
 --------
+
 
 Findings
 ---------
