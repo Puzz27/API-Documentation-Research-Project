@@ -44,6 +44,12 @@ The change_types column is not scraped, but created by me based off of keywords 
 Methods
 --------
 
+My first visualization aims to answer my question of how the shape of Meta's changelogs changed over the different versions.
+
+This visualization can be found at [`change_types_by_version.png`](change_types_by_version.png).
+
+From this visualization, the most notible change over time is from version 3.0 onwards. Version 3.0 of Meta's Graph API was released during the time of the massive Meta scandal in 2018. And from version 3.0 and onwards a visible increase in the number of restrictions introduced in each API version is shown. 
+
 
 Findings
 ---------
