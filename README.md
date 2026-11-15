@@ -21,7 +21,7 @@ Important information I will need from the changelog markdown files includes:
 
 I will be collecting changelogs from a sample of the API's avalible version history. 
 
-A 20-row sample of the cleaned data is in [`sample_cleaned.xls`](sample_cleaned.xls).
+A 20-row sample of the cleaned data is in [`sample_cleaned.csv`](sample_cleaned.csv).
 
 Methods
 --------
