@@ -23,6 +23,24 @@ I will be collecting changelogs from a sample of the API's avalible version hist
 
 A 20-row sample of the cleaned data is in [`sample_cleaned.csv`](sample_cleaned.csv).
 
+SCHEMA FOR COLLECTED DATASET:
+
+version: version of Graph API which the changelog is referencing
+product: which of Meta's various APIs is reciving the change
+release_data: the release date of the changelog's changes
+section: which section the change is targeting/fixing/changing
+subsection: a specification of section of what specifically is being changed
+body: a description of the change
+change_type: the type of change (removal, modification, restriction)
+
+Important notes about this dataset:
+
+Due to the way I scraped the changelogs, the data within the product column turned out to be very inconsistent. Because of this I will not be able to use this column in my final visualizations.
+
+Groups and subsections sometimes have various NULL values where my changelog parser was unable to pick one up. This is due to each changelog being written in a slightly, or very different way to another. 
+
+The change_types column is not scraped, but created by me based off of keywords contained within the change body. Terms "removed, will not be continued" flag a change as a "removal". I created term lists for each kind of change I am defining. The results are not completely accurate. This is due to the different wording of each changelog as well as having a limited set of terms which I search for in the body. These term lists are not a "catch-all" and some change types will be miscategorized or not catagorized as a result. 
+
 Methods
 --------
 
