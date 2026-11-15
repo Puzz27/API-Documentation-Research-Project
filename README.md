@@ -25,13 +25,13 @@ A 20-row sample of the cleaned data is in [`sample_cleaned.csv`](sample_cleaned.
 
 SCHEMA FOR COLLECTED DATASET:
 
-version: version of Graph API which the changelog is referencing
-product: which of Meta's various APIs is reciving the change
-release_data: the release date of the changelog's changes
-section: which section the change is targeting/fixing/changing
-subsection: a specification of section of what specifically is being changed
-body: a description of the change
-change_type: the type of change (removal, modification, restriction)
+version: version of Graph API which the changelog is referencing  
+product: which of Meta's various APIs is reciving the change  
+release_data: the release date of the changelog's changes  
+section: which section the change is targeting/fixing/changing  
+subsection: a specification of section of what specifically is being changed  
+body: a description of the change  
+change_type: the type of change (removal, modification, restriction)  
 
 Important notes about this dataset:
 
