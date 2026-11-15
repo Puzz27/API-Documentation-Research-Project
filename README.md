@@ -50,6 +50,8 @@ This visualization can be found at [`change_types_by_version.png`](change_types_
 
 From this visualization, the most notible change over time is from version 3.0 onwards. Version 3.0 of Meta's Graph API was released during the time of the massive Meta scandal in 2018. And from version 3.0 and onwards a visible increase in the number of restrictions introduced in each API version is shown. 
 
+The methods for collecting, cleaning, and visualizing this data call all be found at [`ChangelogDataProject.ipynb`](ChangelogDataProject.ipynb).
+
 
 Findings
 ---------
